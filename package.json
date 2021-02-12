@@ -1,0 +1,28 @@
+{
+  "name": "plumengo-session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "session.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plumengo/session.git"
+  },
+  "keywords": [
+    "koa",
+    "session",
+    "middleware"
+  ],
+  "author": "plumengo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plumengo/session/issues"
+  },
+  "homepage": "https://github.com/plumengo/session#readme",
+  "dependencies": {
+    "node-cache": "^5.1.2",
+    "uuid": "^8.3.2"
+  }
+}
