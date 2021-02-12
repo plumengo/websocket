@@ -1,8 +1,8 @@
 {
-  "name": "plumengo-session",
+  "name": "plumengo-websocket",
   "version": "1.0.0",
   "description": "",
-  "main": "session.js",
+  "main": "websocket.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,17 +12,16 @@
   },
   "keywords": [
     "koa",
-    "session",
+    "websocket",
     "middleware"
   ],
   "author": "plumengo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/plumengo/session/issues"
+    "url": "https://github.com/plumengo/websocket/issues"
   },
-  "homepage": "https://github.com/plumengo/session#readme",
+  "homepage": "https://github.com/plumengo/websocket#readme",
   "dependencies": {
-    "node-cache": "^5.1.2",
-    "uuid": "^8.3.2"
+    "ws": "^7.4.3"
   }
 }
