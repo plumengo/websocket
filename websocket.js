@@ -7,11 +7,11 @@ function websocket() {
     wss.on('connection', (ws, cxt) => {
 
         ws.on('open', () => {
-            console.log('onOpen'.blue.bold, ws.session)
+            console.log('onOpen', ws.session)
         })
 
         ws.on('close', () => {
-            console.log('onClose'.blue.bold, ws.session)
+            console.log('onClose', ws.session)
         })
 
         ws.on('message', (message) => {
@@ -20,7 +20,7 @@ function websocket() {
 
                 let fn = methods[message.method]
 
-                console.log('onMessage'.blue.bold, message.method)
+                console.log('onMessage', message.method)
 
                 if (fn != undefined)
                     fn(ws, message)
